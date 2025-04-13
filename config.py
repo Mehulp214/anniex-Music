@@ -20,7 +20,8 @@ BOT_NAME = getenv("BOT_NAME", "‣ Mɪss Yᴜᴍɪ Pʀᴏ⋆ ᴠ𝟸.𝟶") #⚠
 ASSUSERNAME = getenv("ASSUSERNAME", "BROKNXASSISTANT") #⚠️Replace
 EVALOP = list(map(int, getenv("EVALOP", "1841914911").split())) 
 MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://new-user31:Qwerty_1234@cluster0.mnw4dzj.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
-LOGGER_ID = int(getenv("LOGGER_ID", -1002598977700)) #⚠️REPLACE
+#LOGGER_ID = int(getenv("LOGGER_ID", -1002598977700)) #⚠️REPLACE
+LOGGER_ID=-1002598977700
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 17000))
 # External APIs - Get these from their respective providers
 GPT_API = getenv("GPT_API")
