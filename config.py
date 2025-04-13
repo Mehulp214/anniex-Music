@@ -36,7 +36,7 @@ UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "Master") #⚠️Don't Change
 GIT_TOKEN = getenv("GIT_TOKEN", None)
 
 # Support and contact information - Provide your own support channels
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/bot_hubs_support") #⚠️Replace
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/MehulBots") #⚠️Replace #Bot_list_hub
 SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/bot_list_hub") #⚠️Replace
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
