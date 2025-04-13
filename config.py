@@ -8,7 +8,7 @@ from pyrogram import filters
 load_dotenv()
 
 # Telegram API credentials - Get these from the Telegram API website
-API_ID = int(getenv("API_ID"), 13216322) #⚠️fill or leave
+API_ID = int(getenv("API_ID")) #⚠️fill or leave
 API_HASH = getenv("API_HASH", '15e5e632a8a0e52251ac8c3ccbe462c7') #⚠️fill or leave
 BOT_TOKEN = getenv("BOT_TOKEN", '7749968822:AAGU2bPie9UAIUsYyaTFKufhdzNDXqCB5vA') #⚠️fill or leave 
 
