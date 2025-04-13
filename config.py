@@ -8,23 +8,23 @@ from pyrogram import filters
 load_dotenv()
 
 # Telegram API credentials - Get these from the Telegram API website
-API_ID = int(getenv("API_ID")) #⚠️fill or leave
-API_HASH = getenv("API_HASH") #⚠️fill or leave
-BOT_TOKEN = getenv("BOT_TOKEN") #⚠️fill or leave 
+API_ID = int(getenv("API_ID"), 13216322) #⚠️fill or leave
+API_HASH = getenv("API_HASH", '15e5e632a8a0e52251ac8c3ccbe462c7') #⚠️fill or leave
+BOT_TOKEN = getenv("BOT_TOKEN", '7749968822:AAGU2bPie9UAIUsYyaTFKufhdzNDXqCB5vA') #⚠️fill or leave 
 
 # Specify where to get the following credentials
-OWNER_USERNAME = getenv("OWNER_USERNAME", "MrBrokn") #⚠️replace 
-BOT_USERNAME = getenv("BOT_USERNAME", "MISS_YUMIPRO_BOT") #⚠️replace
+OWNER_USERNAME = getenv("OWNER_USERNAME", "ramrambro2") #⚠️replace 
+BOT_USERNAME = getenv("BOT_USERNAME", "vcplaybot") #⚠️replace
 BOT_NAME = getenv("BOT_NAME", "‣ Mɪss Yᴜᴍɪ Pʀᴏ⋆ ᴠ𝟸.𝟶") #⚠️replace
 ASSUSERNAME = getenv("ASSUSERNAME", "BROKNXASSISTANT") #⚠️Replace
 EVALOP = list(map(int, getenv("EVALOP", "1841914911").split())) 
-MONGO_DB_URI = getenv("MONGO_DB_URI", None)
-LOGGER_ID = int(getenv("LOGGER_ID", -1002094142057)) #⚠️REPLACE
+MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://new-user31:Qwerty_1234@cluster0.mnw4dzj.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+LOGGER_ID = int(getenv("LOGGER_ID", -1002598977700)) #⚠️REPLACE
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 17000))
 # External APIs - Get these from their respective providers
 GPT_API = getenv("GPT_API")
 DEEP_API = getenv("DEEP_API")
-OWNER_ID = int(getenv("OWNER_ID", 1841914911)) #⚠️REPLACE
+OWNER_ID = int(getenv("OWNER_ID", 6842307218)) #⚠️REPLACE
 
 # Heroku deployment settings - Refer to Heroku documentation on how to obtain these
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
