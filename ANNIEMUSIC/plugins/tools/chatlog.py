@@ -9,6 +9,7 @@ from PIL import Image, ImageDraw, ImageFont
 import asyncio, os, aiohttp
 from pathlib import Path
 from pyrogram.enums import ParseMode
+from config import LOGGER_ID
 
 photo = [
     "https://telegra.ph/file/ca3c86842fe3a4f07a3b6.jpg",
@@ -35,7 +36,7 @@ async def join_watcher(_, message):
                 f"📈 ɢʀᴏᴜᴘ ᴍᴇᴍʙᴇʀs: {count}\n"
                 f"🤔 ᴀᴅᴅᴇᴅ ʙʏ: {message.from_user.mention}"
             )
-            await app.send_photo(LOG_GROUP_ID, photo=random.choice(photo), caption=msg, reply_markup=InlineKeyboardMarkup([
+            await app.send_photo(LOGGER_ID, photo=random.choice(photo), caption=msg, reply_markup=InlineKeyboardMarkup([
                 [InlineKeyboardButton(f"sᴇᴇ ɢʀᴏᴜᴘ👀", url=f"{link}")]
             ]))
 
