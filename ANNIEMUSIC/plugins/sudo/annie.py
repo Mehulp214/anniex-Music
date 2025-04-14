@@ -31,7 +31,7 @@ strict_txt = [
 "fuck you bsdk k mai apne dosto ko kyu kru",
 "hey stupid admin ", 
 "Bsdk Chutiya Hai kya?", 
-" @MRBROKEN OWNER HAI "
+" @PATIL_MEHUL HAI "
 "ha ye phele krlo maar lo ek dusre ki gwaand",  
 "i can't he is my closest friend",
 "i love him please don't restict this user try to usertand "
